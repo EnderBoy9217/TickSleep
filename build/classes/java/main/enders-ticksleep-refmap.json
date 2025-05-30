@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "com/enderboy9217/ticksleep/mixin/ticksleep/MinecraftServerMixin": {
+      "runServer": "Lnet/minecraft/server/MinecraftServer;method_29741()V"
+    },
+    "com/enderboy9217/ticksleep/mixin/ticksleep/ServerPlayerEntityMixin": {
+      "trySleep": "Lnet/minecraft/class_3222;method_7269(Lnet/minecraft/class_2338;)Lcom/mojang/datafixers/util/Either;",
+      "wakeUp": "Lnet/minecraft/class_3222;method_7358(ZZ)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/enderboy9217/ticksleep/mixin/ticksleep/MinecraftServerMixin": {
+        "runServer": "Lnet/minecraft/server/MinecraftServer;method_29741()V"
+      },
+      "com/enderboy9217/ticksleep/mixin/ticksleep/ServerPlayerEntityMixin": {
+        "trySleep": "Lnet/minecraft/class_3222;method_7269(Lnet/minecraft/class_2338;)Lcom/mojang/datafixers/util/Either;",
+        "wakeUp": "Lnet/minecraft/class_3222;method_7358(ZZ)V"
+      }
+    }
+  }
+}
