@@ -1,5 +1,0 @@
-v1	named	intermediary
-FIELD	com/enderboy9217/ticksleep/mixin/ticksleep/ServerWorldMixin	Ljava/util/List;	players	field_18261
-FIELD	com/enderboy9217/ticksleep/mixin/ticksleep/ServerWorldMixin	Lnet/minecraft/server/world/SleepManager;	sleepManager	field_28859
-METHOD	com/enderboy9217/ticksleep/mixin/ticksleep/PlayerEntityMixin	()Z	canResetTimeBySleeping	method_7276
-METHOD	com/enderboy9217/ticksleep/mixin/ticksleep/SleepManagerMixin	(ILjava/util/List;)Z	canResetTime	method_33813
