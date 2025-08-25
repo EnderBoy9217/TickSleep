@@ -30,8 +30,8 @@ public abstract class SleepManagerMixin implements SleepManagerInterface {
 	@Unique
 	public boolean enders_ticksleep$canSkipTime(int percentage, List<ServerPlayerEntity> players) {
 		int i = (int)players.stream().filter(PlayerEntity::canResetTimeBySleeping).count();
-        LOGGER.info("Players: {}", i);
-        LOGGER.info("Percentage: {}", ((SleepManager)(Object) this).getNightSkippingRequirement(percentage));
+        //LOGGER.info("Players: {}", i);
+        //LOGGER.info("Percentage: {}", ((SleepManager)(Object) this).getNightSkippingRequirement(percentage));
 		return i >= ((SleepManager)(Object)this).getNightSkippingRequirement(percentage);
 	}
 }

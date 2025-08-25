@@ -1,0 +1,8 @@
+{
+  "com.enderboy9217.config": "EnderBoy9217's Ticksleep Config",
+  "com.enderboy9217.config.general": "General",
+  "com.enderboy9217.config.tps": "Sleeping Ticks per Second",
+  "com.enderboy9217.config.tps.tooltip": "The maximum real ticks per second the server should run when sleeping.",
+  "com.enderboy9217.config.extraticks": "Extra Unprocessed Ticks skipped for each processed Tick",
+  "com.enderboy9217.config.extraticks.tooltip": "Increasing this option increases performance and skips time faster, but the ticks are not processed"
+}
